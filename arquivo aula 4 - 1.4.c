@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(){
    int idade = -1, total = 0, cont = 0;
-  printf("Se entrar com valor -1 programa ser· encerrado! \n");
+  printf("Se entrar com valor -1 programa ser√° encerrado! \n");
    do{
         printf("digite uma idade: \n");
         scanf("%d", &idade);
