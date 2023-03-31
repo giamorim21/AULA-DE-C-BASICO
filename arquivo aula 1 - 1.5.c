@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-/*Faça um programa que receba dois valores float:
+/*FaÃ§a um programa que receba dois valores float:
  um de altura e um de peso, para calcular o IMC.
  Por fim mostre o resultado.
 */
