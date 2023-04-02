@@ -5,5 +5,23 @@
  */
 
  void main(){
-     int x = 0
- }
+     int x, maior, menor;
+
+   printf("Digite um número (-1 para parar): ");
+   scanf("%d", &x);
+
+   while (x != -1) {
+      printf("Digite outro número (-1 para parar): ");
+      scanf("%d", &x);
+
+      if (x > maior) {
+         maior = x;
+      }
+      if (x < menor) {
+         menor = x;
+      }
+   }
+
+   printf("O maior número é %d.\n", maior);
+   printf("O menor número é %d.\n", menor);
+}
