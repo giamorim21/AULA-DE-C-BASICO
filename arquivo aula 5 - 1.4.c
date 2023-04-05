@@ -1,15 +1,28 @@
-#include <stdio.h>
+#include <stdio.h>#include <stdio.h>
 
-/*Escrever um programa que solicita ao usuário um conjunto de 10 valores reais
-e mostrar a média dos 10 números .(usando só o FOR)(dois casa decimal)
+/*Escreva um algoritmo que solicita ao usuário N números inteiros,
+ calcule e imprima na tela do computador a média(duas casas decimais) do aluno.
+(Usando FOR)
 */
 
 void main(){
-    int i, conta = 0;
-    float media = 0, n;
+   int n;
+   float media,i,a;
 
-    for (i = 0;i < 10;i++){
-        printf("Escolha um valor:");
+    printf("Quantos numeros devem ser digitados:");
+    scanf("%d",&n);
+
+
+    for (i = 0;i < n; i++){
+        printf ( " Digite os numeros: " );
+        scanf ( "%f" ,&a);
+        media += a;
+    }
+   media = media/n;
+   printf("A media eh igual %.2f \n " ,media);
+}
+
+
         scanf("%f",n);
         media += n;
         }
