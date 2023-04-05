@@ -1,25 +1,25 @@
 #include <stdio.h>
 
-/*Escreva um algoritmo que solicita ao usuário N números inteiros, calcule
-e imprima na tela do computador a média(duas casas decimais) do aluno.
+/*Escreva um algoritmo que solicita ao usuário N números inteiros,
+ calcule e imprima na tela do computador a média(duas casas decimais) do aluno.
 (Usando FOR)
 */
 
 void main(){
-    int n;
-    int i;
-    float media;
-    int a;
+   int n;
+   float media,i,a;
 
-    printf("Digite quantos numeros terao que ser escolhidos:");
-    scanf("%d",&a);
+    printf("Quantos numeros devem ser digitados:");
+    scanf("%d",&n);
 
-    for(i = 0; i <= a; i++){
-        printf("digite os numeros:");
-        scanf("%d",&n);
-        media += n;
+
+    for (i = 0;i < n; i++){
+        printf ( " Digite os numeros: " );
+        scanf ( "%f" ,&a);
+        media += a;
     }
    media = media/n;
-
-printf("A media eh igual %.2f\n",media);
+   printf("A media eh igual %.2f \n " ,media);
 }
+
+
